@@ -8,7 +8,6 @@
 }
 
 /* Header style start */
-
 header {
     position: fixed;
     top: 0;
@@ -92,12 +91,8 @@ section {
 }
 
 .banner p {
-    color: #fff;
-    font-size: 20px;
-    position:absolute;
-    bottom: 1em;
-    right: 1em;
-    text-align: right;
+    color: #a9a9a9;
+    font-size: 15px;
 }
 
 .banner h2 {
@@ -136,6 +131,16 @@ section {
 .btn:hover {
     background: #212121;
 }
+
+.textBx-work {
+    display: flex;
+}
+
+.textBx-work-p {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+/* Banner style end */
 
 /* About style start */
 .heading {
@@ -507,10 +512,6 @@ img {
     .banner {
         padding: 150px 50px 100px;
     }
-    .banner p {
-    color: #fff;;
-    font-size: 1.2em;
-    }
     .banner h2 {
         font-size: 1.5em;
     }
@@ -521,6 +522,17 @@ img {
         margin-top: 10px;
         padding: 10px 20px;
         font-size: 16px;
+    }
+    .textBx-work {
+        display: block;
+    }
+    .textBx-work  p {
+        font-size: 15px;
+    }
+    .textBx-work-p {
+        display: flex;
+        margin-top: 5px;
+        padding-left: 0;
     }
     .heading h2 {
         font-size: 24px;
